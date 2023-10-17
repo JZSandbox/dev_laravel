@@ -1,0 +1,101 @@
+
+.fryderyk_dev_login_box {
+    min-width: 450px;
+}
+.fryderyk_dev_login_container {
+    width: 100%;
+    height: 100vh;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f3f4f6;
+}
+.fry_grid_2 {
+    display: flex;
+    flex-direction: column;
+}
+.fryderyk_dev_login_logobox {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }
+  .fryderyk_dev_login_box_body {
+    background: white;
+    padding: 10px 11px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px #0003;
+  }
+
+  .fry.btn-login {
+    text-transform: uppercase;
+    background: #1c3365;
+    color: white;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin: 10px 0;
+  }
+  .text-right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+
+  #app {
+    width: 100%;
+    height: 100vh;
+    background-color: #f3f4f3;
+    .active {
+        position: relative;
+        color: black !important;
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: #1c3365;
+            opacity: 1;
+            z-index: 1;
+        }
+    }
+    .fry_nav:hover {
+        position: relative;
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: -8px;
+                left: 0;
+                width: 100%;
+                height: 2px;
+                background: #1c3365;
+                opacity: 1;
+                z-index: 1;
+            }
+    }
+  }
+.border-bottom {
+    border-bottom: 1px solid #e6e6e6;
+}
+.dashboardHeading {
+    padding: 18px;
+    color: #242735;
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.135);
+}
+
+.dashboard-heading {
+    font-size: 20px;
+}
+
+.content {
+    padding: 40px;
+}
+
+.fryderyk_dev_back {
+    position: absolute;
+    bottom:20px;
+    left: 20px;
+}
